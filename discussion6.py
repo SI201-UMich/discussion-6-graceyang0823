@@ -147,6 +147,7 @@ class HorseRaces:
                 sum += race_time
             average = sum/len(races)
             horses_average[horse_name] = average
+        return horses_average
         
 
 ###############################################################################
